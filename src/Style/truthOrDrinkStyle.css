@@ -1,0 +1,103 @@
+
+.container-type {
+  margin-top: 5vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn-type {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: #d9d9d9;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  width: 15.1875rem;
+  height: 3.875rem;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  animation: btn-type-load 0.7s cubic-bezier(0, 0, 0.28, 1.33);
+}
+@keyframes btn-type-load {
+  0% {
+    scale: 0.5;
+  }
+  80% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.btn-type:hover {
+  background-color: #c9c9c9;
+}
+.btn-type-active {
+  scale: 1.2;
+  border-style: solid;
+  background-color: #e0e0e0;
+  border-color: black;
+}
+
+.container-card {
+  height: 50vh;
+  margin-top: 5vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: change-card 1s cubic-bezier(0.67, 0.16, 0.38, 0.38);
+}
+@keyframes change-card {
+  0% {
+    scale: 0.1;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.container-card .p-card {
+  text-align: center;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  color: #171641;
+}
+.container-answer {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-answer .btn-answer {
+  text-align: center;
+  border-radius: 1.375rem;
+  border: 0;
+  width: 16.1875rem;
+  height: 4.0625rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  color: #171641;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border: #2424245e;
+  border-style: solid;
+  animation: btn-type-load 0.7s cubic-bezier(0, 0, 0.28, 1.33);
+}
+.container-answer .btn-answer:hover {
+  scale: 1.2;
+}
+.container-answer .btn-answer:active {
+  scale: 1;
+}
+#btn-drink {
+  background-color: #eb5b5b;
+}
+#btn-truth {
+  background-color: #72e985;
+}

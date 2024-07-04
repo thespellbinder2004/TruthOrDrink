@@ -1,0 +1,18 @@
+* {
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+
+body {
+  background: linear-gradient(111deg, #f64b4b 1.93%, #5aee95 100%);
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  margin: 0;
+  font-family: Plus Jakarta Sans, Courier, monospace;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=index.00b6809e.css.map */

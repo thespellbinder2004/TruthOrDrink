@@ -1,0 +1,15 @@
+{
+  "name": "couple-games",
+  "version": "1.0.0",
+  "description": "Games for couples/friends",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Gabriel Castro",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
