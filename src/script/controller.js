@@ -10,6 +10,8 @@ import answerView from "./Views/Truth Or Drink/answerView.js";
 import cardView from "./Views/Truth Or Drink/cardView.js";
 // import "core-js/stable";
 
+console.log("I love you Kimberly");
+
 const controlStartGame = function () {
   if (truthOrDrinkModel.getPlayerArr().length <= 1) {
     alert("Please enter atleast two(2) Players to play.");
