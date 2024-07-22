@@ -9,7 +9,6 @@ class AnswerView extends Views {
       if (!e.target.classList.contains("btn-answer")) return;
       //Handler Function
       await handler(e);
-      console.dir(Views);
     });
   }
 }

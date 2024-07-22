@@ -3,23 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/Style/style.css" />
+
     <link rel="stylesheet" href="src/Style/truthOrDrinkStyle.css" />
+    <link rel="stylesheet" href="src/Style/addPlayersStyle.css" />
+    <link rel="stylesheet" href="src/Style/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap"
+      rel="stylesheet"
+    />
+
     <script type="module" src="./src/script/controller.js"></script>
     <title>Truth Or Drink</title>
   </head>
   <body>
-    <div class="page page-add-players hidden">
-      <input type="text" />
+    <!-- Add Player Page -->
+    <div class="page page-add-players">
+      <form class="container form-add-player">
+        <label for="input-name" class="lbl-name">Name:</label>
+        <input type="text" id="input-name" />
+        <button class="btn-add-player">ADD PLAYER</button>
+        <button class="btn-start">START</button>
+        <p id="quote-of-the-day">Loading Quote...</p>
+      </form>
+
+      <ul class="container name-list grid-player-list">
+        <li class="name-list-item">
+          <span style="color: grey">Name Here</span>
+        </li>
+      </ul>
     </div>
 
-    <div class="page page-truth-or-drink">
+    <!-- Truth or drink Game Area -->
+    <!-- ------------------------------------------------------------- -->
+    <div class="page page-truth-or-drink hidden">
       <!-- Truth or drink Game Area -->
       <!-- ------------------------------------------------------------- -->
 
@@ -38,7 +64,7 @@
       </div>
       <!-- container for card e.g. Have you ever dated this dude -->
       <div class="container container-card">
-        <p class="p-card"></p>
+        <p class="p-card">Select the type of card to start.</p>
       </div>
 
       <!-- container for answer buttons, truth and drink btn -->

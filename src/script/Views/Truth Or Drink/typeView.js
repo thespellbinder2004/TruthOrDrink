@@ -1,6 +1,6 @@
 import Views from "../Views.js";
 
-class TypeView {
+class TypeView extends Views {
   _parentEl = document.querySelector(".container-type");
   _containerType = document.querySelector(".container-type");
 

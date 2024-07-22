@@ -4,7 +4,7 @@
   "description": "Games for couples/friends",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joseph Gabriel Castro",
