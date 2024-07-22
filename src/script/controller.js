@@ -10,7 +10,7 @@ import answerView from "./Views/Truth Or Drink/answerView.js";
 import cardView from "./Views/Truth Or Drink/cardView.js";
 // import "core-js/stable";
 
-console.log("I love you Kimberly");
+console.log("This website is made by Strawcas. \n I love you Kimberly < 3");
 
 const controlStartGame = function () {
   if (truthOrDrinkModel.getPlayerArr().length <= 1) {
@@ -37,7 +37,6 @@ const controlDeletePlayer = function (number) {
 
 const controlRenderQuote = async function () {
   const objQuote = await model.getQuote();
-  console.log(objQuote);
   const quoteAuthor = objQuote.author;
   const quoteText = objQuote.quote;
   this.innerHTML = `${quoteText} <br><br> ~${quoteAuthor}`;
